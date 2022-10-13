@@ -1,88 +1,118 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>tum.fyi</title>
-        <style media="screen">
-            * {
-                font-family: monospace;
-            }
-            h1 {
-                margin: 4em 0 2em;
-            }
-            h1, h2, h3 {
-                font-size: 1em;
-                color: #333;
-            }
-            ul {
-                padding-left: 0;
-            }
-            ul li {
-                margin-left: 0;
-                list-style-type: none;
-            }
-            li li {
-                padding-left: 2ch;
-                margin-left: 0;
-                list-style-type: none;
-            }
-            ul li > * {
-                text-indent: 0;
-            }
-            body {
-                max-width: 50em;
-                margin: 0 auto;
-                padding: 2ch;
-                color: #888;
-            }
-            bold {
-                font-weight: bold;
-                color: #333;
-            }
-            a {
-                color: #000;
-            }
-            .details {
-                margin-left: 1.5ch;
-            }
-            li {
-                margin: 1em 0;
-            }
-            blockquote {
-                margin-left: 2.5ch;
-                border-left: 2px solid currentColor;
-                padding-left: 1ch;
-            }
-            .details a {
-                text-decoration: none;
-                color: #888;
-            }
-            .details a:hover {
-                text-decoration: underline;
-            }
-            a:not(:hover) .hoveronly {
-                display: none;
-            }
-            .hoveronly {
-                position: absolute;
-            }
-            .link-unavailable {
-                border-bottom: 1px dashed #000;
-                color: #000;
-            }
-            .select-all {
-                user-select: all;
-                -moz-user-select: all;
-                -webkit-user-select: all;
-            }
-        </style>
-        <base target="_blank"/>
-    </head>
-    <body>
-        <h1>tum.fyi: FYIs für erstsemester informatik b.sc. (ws18/19)</h1>
-        <ul>
-            <li><a href="https://tum.sexy">Eigentlich alles: tum.sexy</a></li>
-            <li><h2>Kurse:</h2><ul>
+
+<head>
+    <meta charset="utf-8">
+    <title>tum.fyi</title>
+    <style media="screen">
+        * {
+            font-family: monospace;
+            color: white;
+        }
+
+        body {
+            background-color: #2C71B4;
+        }
+
+        h1 {
+            margin: 4em 0 2em;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-size: 1em;
+        }
+
+        ul {
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-left: 0;
+            list-style-type: none;
+        }
+
+        li li {
+            padding-left: 2ch;
+            margin-left: 0;
+            list-style-type: none;
+        }
+
+        ul li>* {
+            text-indent: 0;
+        }
+
+        body {
+            max-width: 50em;
+            margin: 0 auto;
+            padding: 2ch;
+        }
+
+        a {
+            color: white;
+        }
+
+        .details {
+            margin-left: 1.5ch;
+        }
+
+        li {
+            margin: 1em 0;
+        }
+
+        blockquote {
+            margin-left: 2.5ch;
+            border-left: 2px solid currentColor;
+            padding-left: 1ch;
+        }
+
+        .details a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .details a:hover {
+            text-decoration: underline;
+        }
+
+        a:not(:hover) .hoveronly {
+            display: none;
+        }
+
+        .hoveronly {
+            position: absolute;
+        }
+
+        .link-unavailable {
+            border-bottom: 1px dashed white;
+            color: white;
+        }
+
+        .select-all {
+            user-select: all;
+            -moz-user-select: all;
+            -webkit-user-select: all;
+        }
+    </style>
+    <link rel="shortcut icon" href="./hi-logo.png" />
+    <base target="_blank" />
+</head>
+
+<body>
+    <h1>tum.fyi: FYIs für erstsemester informatik b.sc. (ws18/19)</h1>
+    <ul>
+        <li><a href="https://tum.sexy">Eigentlich alles: tum.sexy</a></li>
+        <li>
+            <h2>Einführungstage:</h2>
+            <blockquote>Die Fachschaft MPIC organisiert jährlich die Studieneinführungstage (kurz SET). Sie finden meist
+                in den Tagen vor Vorlesungsbeginn statt und bereiten dich auf das Studium vor. Es gitb Campustouren,
+                Ersti-Tüten und Kneipentouren.<br><br>
+                Mehr Infos dazu gibts hier: <a href="https://mpi.fs.tum.de/neu-an-der-tum/set/">Studieneinführungstage SET</a></blockquote>
+        </li>
+        <li>
+            <h2>Kurse:</h2>
+            <ul>
                 <blockquote>
                     <p>
                         Bitte Emails an die Profs vermeiden — wir sind über 1000 Studenten
@@ -92,44 +122,65 @@
                         Deshalb bitte die Piazza-foren verwenden!
                     </p>
                 </blockquote>
-                <li><h3><a href="https://ds.tum.sexy">DS<span style="opacity: .2;">.tum.sexy</span></a></h3>
+                <li>
+                    <h3><a href="https://ds.tum.sexy">DS<span style="opacity: .8;">.tum.sexy</span></a></h3>
                     <div class="details">
-                        <a href="https://piazza.com/class/jnexv9gf5a86qx">Piazza</a><br/>
-                        <a href="https://streams.tum.de/Mediasite/Catalog/catalogs/diskrete-strukturen-2018">Streams</a><br/>
-                        <a href="http://carlos-camino.de/ds.html">Carlos Camino's Unterlagen zu DS</a><br/>
-                        <a href="https://campus.tum.de/tumonline/visitenkarte.show_vcard?pPersonenId=2B2CA7120B2D22C1&pPersonenGruppe=3">Prof. Esparza</a> -
-                            email: &#100;&#115;&#50;&#48;&#49;&#56;&#64;in&#46;tum&#46;de</a>
+                        <a href="https://piazza.com/class/jnexv9gf5a86qx">Piazza</a><br />
+                        <a
+                            href="https://streams.tum.de/Mediasite/Catalog/catalogs/diskrete-strukturen-2018">Streams</a><br />
+                        <a href="http://carlos-camino.de/ds.html">Carlos Camino's Unterlagen zu DS</a><br />
+                        <a
+                            href="https://campus.tum.de/tumonline/visitenkarte.show_vcard?pPersonenId=2B2CA7120B2D22C1&pPersonenGruppe=3">Prof.
+                            Esparza</a> -
+                        email: &#100;&#115;&#50;&#48;&#49;&#56;&#64;in&#46;tum&#46;de</a>
                     </div>
-                    </li>
-                <li><h3><a href="https://era.tum.sexy">ERA<span style="opacity: .2;">.tum.sexy</span></a></h3>
+                </li>
+                <li>
+                    <h3><a href="https://era.tum.sexy">ERA<span style="opacity: .8;">.tum.sexy</span></a></h3>
                     <div class="details">
-                        <a href="https://piazza.com/class/jnvqq33l1ln3yh">Piazza</a><br/>
-                        <a href="https://www.moodle.tum.de/mod/lti/view.php?id=801473">Streams</a><br/>
-                        <a href="https://campus.tum.de/tumonline/visitenkarte.show_vcard?pPersonenId=1298D37F771F06D6&pPersonenGruppe=3">Prof. Schulz</a> /
-                            <a href="http://www.lrr.in.tum.de/mitarbeiter/martin-schulz/">Homepage</a>
+                        <a href="https://piazza.com/class/jnvqq33l1ln3yh">Piazza</a><br />
+                        <a href="https://www.moodle.tum.de/mod/lti/view.php?id=801473">Streams</a><br />
+                        <a
+                            href="https://campus.tum.de/tumonline/visitenkarte.show_vcard?pPersonenId=1298D37F771F06D6&pPersonenGruppe=3">Prof.
+                            Schulz</a> /
+                        <a href="http://www.lrr.in.tum.de/mitarbeiter/martin-schulz/">Homepage</a>
                     </div>
-                    </li>
-                <li><h3><a href="https://pgdp.tum.sexy">PGdP<span style="opacity: .2;">.tum.sexy</span><span class="hoveronly">🐧<span></a>/
-                        <a href="https://eidi.tum.sexy">EidI<span style="opacity: .2;">.tum.sexy</span></a></h3>
+                </li>
+                <li>
+                    <h3><a href="https://pgdp.tum.sexy">PGdP<span style="opacity: .8;">.tum.sexy</span><span
+                                class="hoveronly">🐧<span></a>/
+                        <a href="https://eidi.tum.sexy">EidI<span style="opacity: .8;">.tum.sexy</span></a>
+                    </h3>
                     <div class="details">
-                        <a href="https://piazza.com/class/jkcrafyg1pe74j">Piazza</a><br/>
-                        <a href="https://streams.tum.de/Mediasite/Catalog/catalogs/eidi1-1819">Streams</a><br/>
-                        <a href="http://www22.in.tum.de">Homepage vom Lehrstuhl für Software & Systems Engineering</a><br/>
-                        <a href="https://campus.tum.de/tumonline/visitenkarte.show_vcard?pPersonenId=E29987DD866FD89F&pPersonenGruppe=3">PGdP: Julian Kranz et al.</a><br/>
-                        <a href="https://campus.tum.de/tumonline/visitenkarte.show_vcard?pPersonenId=0DB21F05BD46AFEE&pPersonenGruppe=3">EidI: Prof. Pretschner</a>
+                        <a href="https://piazza.com/class/jkcrafyg1pe74j">Piazza</a><br />
+                        <a href="https://streams.tum.de/Mediasite/Catalog/catalogs/eidi1-1819">Streams</a><br />
+                        <a href="http://www22.in.tum.de">Homepage vom Lehrstuhl für Software & Systems
+                            Engineering</a><br />
+                        <a
+                            href="https://campus.tum.de/tumonline/visitenkarte.show_vcard?pPersonenId=E29987DD866FD89F&pPersonenGruppe=3">PGdP:
+                            Julian Kranz et al.</a><br />
+                        <a
+                            href="https://campus.tum.de/tumonline/visitenkarte.show_vcard?pPersonenId=0DB21F05BD46AFEE&pPersonenGruppe=3">EidI:
+                            Prof. Pretschner</a>
                     </div>
-                    </li>
-            </ul></li>
-            <li><h3>Kommunikation:</h3><ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>Kommunikation:</h3>
+            <ul>
                 <li><a href="https://t.me/joinchat/Hc6Uv0Su0kNrfyMkGWboeQ">Telegram-Gruppe</a></li>
-                <li><span class="link-unavailable">Discord-Server</span>: <code class="select-all">Leonard Goldstein<span style="opacity:0.5">#9340</span></code>
+                <li><span class="link-unavailable">Discord-Server</span>: <code
+                        class="select-all">Leonard Goldstein<span style="opacity:0.5">#9340</span></code>
                     um eine Einladung bitten.</li>
-            </ul></li>
-            <li><a href="https://web.tum.app">TUM Campus App</a></li>
-            <li><a href="https://portal.mytum.de/campus/roomfinder">Room Finder</a></li>
-            <li><a href="https://www.ub.tum.de/en/group-study-rooms">Study Rooms</a></li>
-            <li><a href="https://mpi.fs.tum.de">🦉 Fachschaft MPI</a></li>
-            <li><a href="https://github.com/jneubrand/tum.fyi">PRs willkommen!</a> ♥︎, @jneubrand</li>
-        </ul>
-    </body>
+            </ul>
+        </li>
+        <li><a href="https://web.tum.app">TUM Campus App</a></li>
+        <li><a href="https://portal.mytum.de/campus/roomfinder">Room Finder</a></li>
+        <li><a href="https://www.ub.tum.de/en/group-study-rooms">Study Rooms</a></li>
+        <li><a href="https://mpi.fs.tum.de">🦉 Fachschaft MPI</a></li>
+        <li><a href="https://github.com/jneubrand/tum.fyi">PRs willkommen!</a> ♥︎, @jneubrand</li>
+    </ul>
+</body>
+
 </html>
